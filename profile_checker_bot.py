@@ -20,9 +20,9 @@ from telethon.tl.types import (
 )
 
 # ====== НАСТРОЙКИ ======
-API_ID = 12345                    # https://my.telegram.org -> API development tools
-API_HASH = "your_api_hash"
-BOT_TOKEN = "123456:ABC..."       # токен от @BotFather
+API_ID = 35981014                    # https://my.telegram.org -> API development tools
+API_HASH = "4e788ed1a686308838891734a4173c48"
+BOT_TOKEN = "8936797539:AAFef7YisHtaqFykqFvrcZBxwH9SVa06T5I"       # токен от @BotFather
 DEFAULT_MIN_SCORE = 70            # порог по умолчанию (меняется командой /min 80)
 DELAY = 1.5                       # пауза между запросами (сек), защита от флуд-лимитов
 MAX_USERNAMES = 300               # максимум юзернеймов за один запуск
