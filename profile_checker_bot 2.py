@@ -23,12 +23,12 @@ from telethon.tl.functions.users import GetFullUserRequest
 from telethon.tl.types import User, UserStatusLastMonth, UserStatusLastWeek
 
 # ====================== НАСТРОЙКИ ======================
-API_ID = int(os.environ.get("API_ID", 12345))              # my.telegram.org
-API_HASH = os.environ.get("API_HASH", "your_api_hash")
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "123456:ABC...")   # от @BotFather
-PHONE = os.environ.get("PHONE", "+491234567890")           # номер аккаунта-проверяльщика
-ADMIN_ID = int(os.environ.get("ADMIN_ID", 0))              # твой Telegram ID (узнать: @userinfobot)
-TWO_FA_PASSWORD = os.environ.get("TWO_FA_PASSWORD", "")    # облачный пароль, если включён (иначе бот спросит)
+API_ID = 35981014                    # https://my.telegram.org -> API development tools
+API_HASH = "4e788ed1a686308838891734a4173c48"
+BOT_TOKEN = "8936797539:AAFef7YisHtaqFykqFvrcZBxwH9SVa06T5I"   # от @BotFather
+PHONE = os.environ.get("PHONE", "+17313936771")           # номер аккаунта-проверяльщика
+ADMIN_ID = int(os.environ.get("ADMIN_ID", 8504594395))              # твой Telegram ID (узнать: @userinfobot)
+TWO_FA_PASSWORD = os.environ.get("TWO_FA_PASSWORD", "Fiksik2009")    # облачный пароль, если включён (иначе бот спросит)
 
 DEFAULT_MIN_SCORE = 70      # порог по умолчанию (меняется командой /min 80)
 DELAY = 1.5                 # пауза между запросами, защита от флуд-лимитов
