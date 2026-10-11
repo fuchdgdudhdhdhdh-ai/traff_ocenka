@@ -249,8 +249,6 @@ async def on_key(event):
 # ---------------------- команды и основной обработчик ----------------------
 @bot.on(events.NewMessage(pattern=r"^/start"))
 async def start(event):
-    if event.sender_id != ADMIN_ID:
-        return await event.reply(f"Нет доступа. Твой ID: {event.sender_id}")
     if not ready:
         return await begin_login(event.chat_id)
     await event.reply(
