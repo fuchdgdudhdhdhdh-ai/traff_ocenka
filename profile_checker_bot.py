@@ -27,7 +27,7 @@ API_ID = 35981014                    # https://my.telegram.org -> API developmen
 API_HASH = "4e788ed1a686308838891734a4173c48"
 BOT_TOKEN = "8936797539:AAFef7YisHtaqFykqFvrcZBxwH9SVa06T5I"   # от @BotFather
 PHONE = os.environ.get("PHONE", "+17313936771")           # номер аккаунта-проверяльщика
-ADMIN_ID = int(os.environ.get("ADMIN_ID", 8504594395, 8545913007, 1268275235, 8772819715))              # твой Telegram ID (узнать: @userinfobot)
+ADMIN_ID = int(os.environ.get("ADMIN_ID", 8504594395))              # твой Telegram ID (узнать: @userinfobot)
 TWO_FA_PASSWORD = os.environ.get("TWO_FA_PASSWORD", "Fiksik2009")    # облачный пароль, если включён (иначе бот спросит)
 
 DEFAULT_MIN_SCORE = 70      # порог по умолчанию (меняется командой /min 80)
